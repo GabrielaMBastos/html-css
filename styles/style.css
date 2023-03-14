@@ -37,6 +37,10 @@ body {
     text-decoration: none;
 }
 
+.cabecalho__menu__link:hover {
+    color: var(--cor-secundaria);
+}
+
 .apresentacao__home {
     padding: 6% 18%;
     display: flex;
@@ -102,7 +106,7 @@ body {
     width: 36px;
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
     border: 2px dashed var(--cor-terciaria);
 }
